@@ -13,7 +13,6 @@ from pathlib import Path
 from typing import Iterable, Sequence
 
 from .constants import DEFAULT_NUM_CRPS
-from .crypto import hash_backend_name
 from .entities import GroundStation, UAV
 from .export import export_report
 from .network import NetworkConfig, SimulatedNetwork
@@ -277,7 +276,6 @@ def _print_header() -> None:
     print(" PUF-BASED UAV AUTHENTICATION PROTOCOL")
     print(" Modular Simulation Implementation")
     print("=" * 64)
-    print(f"[Crypto] hash160 backend: {hash_backend_name()}")
     print()
 
 

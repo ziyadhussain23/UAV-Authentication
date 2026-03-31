@@ -91,7 +91,14 @@ def export_report(monitor: PerformanceMonitor, results_dir: str | Path = "result
     p2_cols = _final_step_columns(monitor.phase2, PHASE2_STEP_COLUMNS)
     p3_cols = _final_step_columns(monitor.phase3, PHASE3_STEP_COLUMNS)
 
-    export_phase_csv(monitor.phase2, out_dir / "phase2_results.csv", step_columns=p2_cols)
-    export_phase_csv(monitor.phase3, out_dir / "phase3_results.csv", step_columns=p3_cols)
+    p2_path = out_dir / "phase2_results.csv"
+    p3_path = out_dir / "phase3_results.csv"
+    rpt_path = out_dir / "overhead_report.txt"
 
-    (out_dir / "overhead_report.txt").write_text(monitor.report_text() + "\n")
+    export_phase_csv(monitor.phase2, p2_path, step_columns=p2_cols)
+    export_phase_csv(monitor.phase3, p3_path, step_columns=p3_cols)
+    rpt_path.write_text(monitor.report_text() + "\n")
+
+    print(f"[Results] Wrote {p2_path}")
+    print(f"[Results] Wrote {p3_path}")
+    print(f"[Results] Wrote {rpt_path}")

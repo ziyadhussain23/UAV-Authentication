@@ -15,7 +15,6 @@ import json
 import socket
 from typing import Any
 
-from uav_puf_auth.crypto import hash_backend_name
 from uav_puf_auth.storage import load_gs_state, save_gs_state
 
 
@@ -126,8 +125,6 @@ def main() -> None:
     args = p.parse_args()
 
     gs = load_gs_state(args.db)
-
-    print(f"[Crypto] hash160 backend: {hash_backend_name()}")
 
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)

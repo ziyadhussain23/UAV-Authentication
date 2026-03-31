@@ -19,7 +19,6 @@ from typing import Any
 from uav_puf_auth.constants import HASH_BYTES, PHASE2_NONCE_BYTES, RESPONSE_BYTES, TID_BYTES
 from uav_puf_auth.crypto import (
     hash160,
-    hash_backend_name,
     mac160,
     now_u32,
     rand_bytes,
@@ -68,8 +67,6 @@ def main() -> None:
         help="Write updated UAV state back to --state (rotated TID)",
     )
     args = p.parse_args()
-
-    print(f"[Crypto] hash160 backend: {hash_backend_name()}")
 
     uav = load_uav_state(args.state)
 
