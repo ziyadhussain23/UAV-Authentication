@@ -46,7 +46,6 @@ def _recv_line(sock: socket.socket) -> dict[str, Any]:
 
 
 def handle_client(sock: socket.socket, gs, gs_db_path: str, persist: bool) -> None:
-
     try:
         msg1 = _recv_line(sock)
         if msg1.get("type") != "phase2_msg1":
@@ -75,7 +74,12 @@ def handle_client(sock: socket.socket, gs, gs_db_path: str, persist: bool) -> No
             },
         )
 
-        msg3 = _recv_line(sock)
+        try:
+            msg3 = _recv_line(sock)
+        except ConnectionError:
+            # Client may disconnect if it encountered a local error.
+            print("[GS] Client disconnected before msg3")
+            return
         if msg3.get("type") != "phase2_msg3":
             _send_line(sock, {"type": "error", "message": "Expected phase2_msg3"})
             return
@@ -104,6 +108,12 @@ def handle_client(sock: socket.socket, gs, gs_db_path: str, persist: bool) -> No
 
         if persist:
             save_gs_state(gs, gs_db_path)
+
+    except ConnectionError as e:
+        print(f"[GS] Client connection error: {e}")
+    except Exception as e:
+        # Keep the server running even if one client misbehaves.
+        print(f"[GS] Error handling client: {e}")
 
     finally:
         try:
@@ -137,7 +147,11 @@ def main() -> None:
     while True:
         client, addr = server.accept()
         print(f"[GS] Connection from {addr}")
-        handle_client(client, gs, gs_db_path=args.db, persist=args.persist)
+        try:
+            handle_client(client, gs, gs_db_path=args.db, persist=args.persist)
+        except Exception as e:
+            # Extra safety: never crash the accept loop.
+            print(f"[GS] Unhandled client error: {e}")
 
 
 if __name__ == "__main__":
