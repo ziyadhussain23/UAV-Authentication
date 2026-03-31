@@ -1,83 +1,83 @@
 {
   "node_id": 1000,
-  "network_nonce": "Yd1uM/tOYNnJLBpHBY8wEw==",
+  "network_nonce": "2rlXri6yubXCou6D4N5nYQ==",
   "records": [
     {
       "uav_id": 1,
-      "tid": "3QJVJafEJ3g=",
-      "tau": "5/EwKBjVkWIt2wBHLf3rLpXQIHo=",
-      "registered_at": 1774965439,
+      "tid": "yVzJ6oQs6T0=",
+      "tau": "0Qr2JwRJiBRVDQ+jg3+L6NAlxwg=",
+      "registered_at": 1774965680,
       "crps": [
         {
-          "challenge": "bE3YoiHXw1bqRkfZ5ag7jA==",
-          "helper_data": "azu39cH5ugrHcI1Xw/FAeTxok6ML+hCBHuo2m3rA",
-          "response_hash": "xKb8oUjV/kITKAakLk12fgOut78=",
+          "challenge": "sNL3Tx6YKeWwbrVByrZZ7Q==",
+          "helper_data": "s+IXmZ3jb45E/eHL1DpcPWBjSgsJgEEZBi9v9CwA",
+          "response_hash": "/GkRFTRgSXw6/zcxWHjyLonbfH8=",
           "consumed": false
         },
         {
-          "challenge": "2cIc3aCazbX+YIMnGgWE1w==",
-          "helper_data": "fW+uYmXd2f5+/HbvUsaKPC0u0yw01i8p6jqju44A",
-          "response_hash": "gY93wsb9CgNxTfLatOxsdh6+6Kw=",
+          "challenge": "EBKFcOoudIOkvpxUKh9YZg==",
+          "helper_data": "W6i8vNo9At5WhnE0vrA99eV8fbGRgw7JVQk3cxsA",
+          "response_hash": "PnOMGjY/7MOSX4u5Z8Omite1Li0=",
           "consumed": false
         },
         {
-          "challenge": "PJkdGGh/OA8gT1bCKYVaZQ==",
-          "helper_data": "emdXNWOKSNMC+yxTTg2i45Jf+4xmmd2MMltbMyfA",
-          "response_hash": "x3kZKFgDB4ReQz9Jym2KDGsnG4M=",
+          "challenge": "hezR8DpuaaJK+UHJf1mxXA==",
+          "helper_data": "jEomm758qInG7WnuDdvDiffvewxNdOf8CGHvLQlA",
+          "response_hash": "qJYo7uaPFXlb8eNrn+bc9HG58BI=",
           "consumed": false
         },
         {
-          "challenge": "mxEZ20x25U5YGS22XPKqGA==",
-          "helper_data": "yH0io61JEtd3Qb/y3Jz9mOipcho6e7oHfK0FVbVA",
-          "response_hash": "ltnulgsijxd3QwuYrCPn7WZ8ou8=",
+          "challenge": "Kzp6DFjIu46iUR0NPvpePg==",
+          "helper_data": "Hao4lYqDYFfT23Li/FyCm5f+xT5TLeJiLR2V7HKA",
+          "response_hash": "hD99TLg65O6xxopYI3bpVB6x3sY=",
           "consumed": false
         },
         {
-          "challenge": "IMFwm88SuJj6db8hycEwDA==",
-          "helper_data": "Rkw3pOzmjzn4X5TDRkarE2LDmlWROWp88ONu2sTA",
-          "response_hash": "ea6p10A0WEbueH7io0v5ffldz40=",
+          "challenge": "rFBl5ClBEuVQrGb1ZuZZfw==",
+          "helper_data": "KY3Uq59fviZzO/5SlyOP/pBqRZ54Zl1WCxK/OqyA",
+          "response_hash": "1pdaQ59oRlNx485chdWx20dEGVk=",
           "consumed": false
         },
         {
-          "challenge": "AQofhvvfi7NMMA5RnxFLzg==",
-          "helper_data": "zy0PywBByZrGj2erdesPxi3gun9IKnQ66GyehQrA",
-          "response_hash": "uexFjsjsTdI0wqjvMRJH9sa9VPk=",
+          "challenge": "vkOtHsJWx5zLcpAZRyEV7A==",
+          "helper_data": "Gs5Pk61qkzwPC94NdVoTamf5MekWZ2tv8xW8RInA",
+          "response_hash": "+SNBV7xxGvfCf0WrFVMGEMVPCo8=",
           "consumed": false
         },
         {
-          "challenge": "Uwua5oXWaFCDSj0kO0EVwA==",
-          "helper_data": "7mQ/zEhyvRHXtLKtgWsC/X4PDRksUBaYlL3rh6yA",
-          "response_hash": "4KVmPL2ej1gbWMp69gLe2uiX2iQ=",
+          "challenge": "Hf87q16Il1Zj4CO/TWLPNg==",
+          "helper_data": "j9hhJnfoJQ70c2pzsF6ky+Mq0bRWgk3ssVjaKQtA",
+          "response_hash": "uGA5i4gRt3mJ5MmUqWD5U/Mj/9E=",
           "consumed": false
         },
         {
-          "challenge": "dgw421sRCMsqDi15vDaqgQ==",
-          "helper_data": "lthHIMkooGPGjtUbJNSfqPtrP2Y7/U+s1fOZHcAA",
-          "response_hash": "lMJTiI9/uXh+0iBmo78kRY6Qwpc=",
+          "challenge": "JPh4u5fRPGkSHjG/qARUFQ==",
+          "helper_data": "tr2GN3OQq4WVv4egtThPMqcMZDvisPInoZcTNP4A",
+          "response_hash": "28OjCixo6axiMRuOrSO4/rh4Hqg=",
           "consumed": false
         },
         {
-          "challenge": "ahUDpoIaL4sWJxXhpVOZPQ==",
-          "helper_data": "8GZlFsaGEtyAeAviNBRRDJ7YCK0leZskyFnHwEZA",
-          "response_hash": "uOorAawnoVSpBUaSAh/PqQEOXcg=",
+          "challenge": "dowL3rdtf522zmQjaNeWpA==",
+          "helper_data": "NsiVnpdV4qtPh4wppPYQIUll/xa/w8V7G71PmltA",
+          "response_hash": "LP9tyZJUEDpxJdhU7e24OUaJNlw=",
           "consumed": false
         },
         {
-          "challenge": "8w+jVIzMdINLdqzEF+NZbw==",
-          "helper_data": "gnDARSMQEoNArW69EWjLF5LnxTfGWegswNU8Gx6A",
-          "response_hash": "2ryW5p2iwT7t4E4pz9mvjh6PQ18=",
+          "challenge": "7yTZLHkklQ8vRvJEiW6mpA==",
+          "helper_data": "gaYUhULU7NR4GUtXCFzldawi10v2OtQUCQT8mtLA",
+          "response_hash": "1rP3FOQhRr+B7qUcdK6Sdf0ln5g=",
           "consumed": false
         },
         {
-          "challenge": "2w2YD00EhY13NqkAlrS7VA==",
-          "helper_data": "LtBqem7+zUAz00fKfkfHUplK5yPXj4NkCyvcYiMA",
-          "response_hash": "WiWe9e0eAQmCGD4O06j7xYd+39A=",
+          "challenge": "uoIBPAk/z6ZpTGe5sx1JRg==",
+          "helper_data": "8YgXu8SZymBqPBfZztwBK6i4irmxX9o3tVEhuxXA",
+          "response_hash": "UZ0Bdtf9uQnvUfXoqxp3DP/oquo=",
           "consumed": false
         },
         {
-          "challenge": "OvCs4GntukK0Uh8qeVxQcw==",
-          "helper_data": "N67TAdRrZyP8OlD+K4FEz1cZ5iQtbJHJAMe9+83A",
-          "response_hash": "Hd0BdPjbhrLTRIKIPW6Ur8NIPJ8=",
+          "challenge": "a3HgnJWsQwPj3mczEQvjJw==",
+          "helper_data": "0Fij7+bkcq6uuSwLP/VDhKCqV54cQbc15K5XqWoA",
+          "response_hash": "zHmRxFTZ0dolrkCrZEAriWkScCw=",
           "consumed": false
         }
       ]
