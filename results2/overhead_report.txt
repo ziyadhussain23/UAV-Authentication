@@ -1,0 +1,3 @@
+================ PERFORMANCE REPORT ================
+Phase 2 (UAV↔GS): N=10, success=100.0%, lat(ms) mean=20.44 stdev=0.05 min=20.41 max=20.59, compute(ms) mean=0.445 stdev=0.051 min=0.413 max=0.587, net(ms) mean=20.00 stdev=0.00 min=20.00 max=20.00, overhead mean=210.0 bytes
+Phase 3 (UAV↔UAV): N=45, success=100.0%, lat(ms) mean=3.08 stdev=0.01 min=3.07 max=3.12, compute(ms) mean=0.077 stdev=0.007 min=0.072 max=0.117, net(ms) mean=3.00 stdev=0.00 min=3.00 max=3.00, overhead mean=196.0 bytes
